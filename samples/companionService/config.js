@@ -14,17 +14,17 @@
  * not need to modify those elements.
  */
 var config = {
-    clientId: '',
-    clientSecret: '',
+    clientId: 'amzn1.application-oa2-client.4bf7aafc177f4bbfabd7ea02cf3b5ffd',
+    clientSecret: '0c59f4e90218fa073abf5c2eb4f309379dc943b191cbe57ace77abfd2e0aaba0',
     redirectUrl: 'https://localhost:3000/authresponse',
     lwaRedirectHost: 'amazon.com',
     lwaApiHost: 'api.amazon.com',
     validateCertChain: true,
-    sslKey: '',
-    sslCert: '',
-    sslCaCert: '',
+    sslKey: '/home/skoppula/biometrics/alexa-app/samples/javaclient/certs/server/node.key',
+    sslCert: '/home/skoppula/biometrics/alexa-app/samples/javaclient/certs/server/node.crt',
+    sslCaCert: '/home/skoppula/biometrics/alexa-app/samples/javaclient/certs/ca/ca.crt',
     products: {
-        "": [""], // Fill in with valid device values, eg: "testdevice1": ["DSN1234", "DSN5678"]
+        "skoppula_linux_box": ["123456"], // Fill in with valid device values, eg: "testdevice1": ["DSN1234", "DSN5678"]
     },
 };
 

@@ -1,18 +1,20 @@
 {
-    "productId":"",
-    "dsn":"",
-    "provisioningMethod":"",
+    "productId":"skoppula_linux_box",
+    "dsn":"123456",
+    "provisioningMethod":"companionService",
     "wakeWordAgentEnabled":false,
+    "avsHost":"https://avs-alexa-na.amazon.com",
     "companionApp":{
         "localPort":8443,
-        "sslKeyStore":"",
-        "sslKeyStorePassphrase":"",
-        "lwaUrl":"https://api.amazon.com"
+        "lwaUrl":"https://api.amazon.com",
+        "sslKeyStore":"/home/skoppula/biometrics/alexa-app/samples/javaclient/certs/server/jetty.pkcs12",
+        "sslKeyStorePassphrase":""
     },
     "companionService":{
         "serviceUrl":"https://localhost:3000",
-        "sslClientKeyStore":"",
+        "sslClientKeyStore":"/home/skoppula/biometrics/alexa-app/samples/javaclient/certs/client/client.pkcs12",
         "sslClientKeyStorePassphrase":"",
-        "sslCaCert":""
+        "sslCaCert":"/home/skoppula/biometrics/alexa-app/samples/javaclient/certs/ca/ca.crt",
+        "sessionId":"6dd8ecca-5f9b-463c-aa5d-0da31b3de46c"
     }
 }
